@@ -8,9 +8,6 @@ export class Message extends Document {
   chat_id: Types.ObjectId;
   
   @Prop({ required: true })
-  description: string;
-  
-  @Prop({ required: true })
   role: string;
 
   @Prop({ required: true })
